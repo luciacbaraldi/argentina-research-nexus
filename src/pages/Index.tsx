@@ -1,10 +1,8 @@
 
-import MainLayout from "@/components/MainLayout";
+import PublicationsPage from "./PublicationsPage";
 
 const Index = () => {
-  return (
-    <MainLayout />
-  );
+  return <PublicationsPage />;
 };
 
 export default Index;
