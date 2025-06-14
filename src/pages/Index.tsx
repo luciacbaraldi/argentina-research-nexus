@@ -1,8 +1,6 @@
 
-import PublicationsPage from "./PublicationsPage";
+import Home from "./Home";
 
-const Index = () => {
-  return <PublicationsPage />;
-};
+const Index = () => <Home />;
 
 export default Index;
