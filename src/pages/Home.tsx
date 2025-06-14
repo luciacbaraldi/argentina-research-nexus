@@ -27,7 +27,7 @@ export default function Home() {
       {/* Hero section */}
       <header className="flex flex-col items-center justify-center pt-20 pb-14 px-4 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight text-primary">
-          Conocimiento Argentino
+          InvestigAR
         </h1>
         <h2 className="text-lg md:text-xl font-medium mb-3 text-gray-700 max-w-2xl">
           Una plataforma colaborativa para descubrir, cuantificar y explorar toda la producción académica sobre Argentina.
