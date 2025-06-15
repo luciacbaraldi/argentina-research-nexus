@@ -20,7 +20,7 @@ export default function Home() {
   return <div className="min-h-screen flex flex-col bg-background font-georgia">
       {/* Hero section styled like the reference image */}
       <header className="flex flex-col items-center justify-center pt-16 pb-10 px-4 py-[60px]">
-        <div className="w-full max-w-2xl flex items-center gap-4 mb-6">
+        <div className="w-full max-w-2xl flex items-center gap-4 mb-6 py-0 px-[70px]">
           <span className="rounded-md bg-[#eaf4fb] flex items-center justify-center p-2">
             {/* Lucide BookText icon as a minimalist book */}
             <BookText size={40} strokeWidth={2.2} className="text-[#74ACDF]" />
