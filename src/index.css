@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -104,4 +107,10 @@
 
 .font-georgia {
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Utilidad para Montserrat bold */
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }

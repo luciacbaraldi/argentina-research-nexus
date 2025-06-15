@@ -31,7 +31,7 @@ export default function Home() {
             {/* Lucide BookText icon as a minimalist book */}
             <BookText size={40} strokeWidth={2.2} className="text-[#74ACDF]" />
           </span>
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight flex items-end leading-tight" style={{letterSpacing: "-1px"}}>
+          <h1 className="text-4xl md:text-5xl font-montserrat font-bold tracking-tight flex items-end leading-tight" style={{letterSpacing: "-1px"}}>
             <span className="text-primary mr-1">Argen</span>
             <span className="text-[#74ACDF]">Investiga</span>
           </h1>
