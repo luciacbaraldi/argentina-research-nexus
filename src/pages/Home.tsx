@@ -17,9 +17,9 @@ export default function Home() {
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter") handleExplore();
   };
-  return <div className="min-h-screen flex flex-col bg-background font-georgia">
+  return <div className="min-h-screen flex flex-col bg-background font-georgia py-0">
       {/* Hero section styled like the reference image */}
-      <header className="flex flex-col items-center justify-center pt-16 pb-10 px-4 py-[60px]">
+      <header className="flex flex-col items-center justify-center pt-16 pb-10 rounded-none px-[50px] py-[57px]">
         <div className="w-full max-w-2xl flex items-center gap-4 mb-6 py-0 px-[70px]">
           <span className="rounded-md bg-[#eaf4fb] flex items-center justify-center p-2">
             {/* Lucide BookText icon as a minimalist book */}
@@ -35,13 +35,13 @@ export default function Home() {
         <h2 className="text-lg md:text-xl font-medium mb-3 text-gray-700 max-w-2xl text-center">
           Una plataforma colaborativa para descubrir, cuantificar y explorar toda la producción académica sobre Argentina.
         </h2>
-        <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto text-center">
+        <p className="text-base text-gray-600 max-w-2xl mx-auto text-center font-thin md:text-sm">
           Reunimos investigaciones de universidades, think tanks y organizaciones de la sociedad civil para hacerlas visibles, accesibles y comparables.
         </p>
       </header>
 
       {/* Central explorer button + search */}
-      <section className="flex flex-col items-center gap-4 pb-14">
+      <section className="flex flex-col items-center gap-4 pb-14 py-[29px]">
         <Button size="lg" className="text-lg px-7 py-4 font-semibold flex items-center gap-2" onClick={handleExplore}>
           <Search />
           Explorar publicaciones
@@ -55,7 +55,7 @@ export default function Home() {
       </section>
 
       {/* Highlight section */}
-      <section className="px-2 pb-16">
+      <section className="px-2 pb-16 py-[10px]">
         <HighlightsSection />
       </section>
 
